@@ -1,14 +1,7 @@
-# NOTE: This file is specific to AVR builds.
-
-# MCU name
 MCU = atmega328p
 
-# Bootloader selection
 BOOTLOADER = usbasploader
 
-# Build Options
-#   change yes to no to disable
-#
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
