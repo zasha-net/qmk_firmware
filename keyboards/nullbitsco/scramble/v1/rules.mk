@@ -2,14 +2,14 @@ MCU = atmega328p
 
 BOOTLOADER = usbasploader
 
-BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = yes       # Mouse keys
-EXTRAKEY_ENABLE = yes       # Audio control and System control
-CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
-NKRO_ENABLE = no            # Enable N-Key Rollover
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
-AUDIO_ENABLE = no           # Audio output
-ENCODER_ENABLE = yes        # Use rotary encoder
-OLED_ENABLE = yes			# Use OLED display
+BOOTMAGIC_ENABLE = no
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+CONSOLE_ENABLE = no
+COMMAND_ENABLE = no
+NKRO_ENABLE = no
+BACKLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = yes
+AUDIO_ENABLE = no
+ENCODER_ENABLE = yes
+OLED_ENABLE = yes
